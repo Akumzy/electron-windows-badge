@@ -29,7 +29,7 @@ module.exports = class BadgeGenerator {
     img.displayStyle = style;
 
     style.color = style.color ? style.color : 'red';
-    style.font = style.font ? style.font : '18px arial';
+    style.font = style.font ? style.font : '16px arial';
     style.fontColor = style.fontColor ? style.fontColor : 'white';
     style.fit = style.fit === undefined ? true : style.fit;
     style.decimals = style.decimals === undefined || isNaN(style.decimals) ? 0 : style.decimals;
